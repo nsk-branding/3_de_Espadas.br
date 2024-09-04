@@ -45,7 +45,7 @@ a {
     text-decoration: none; }
 
 h1, h2, h3, h4, h5 {
-  color: #000839; }
+  color: #000000; }
 
 .text-primary {
   color: #b82733 !important; }
@@ -737,7 +737,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     position: relative; }
   .hero .quote {
     padding: 50px;
-    background: #000839;
+    background: #000000;
     color: #ffffff;
     width: 100%;
     bottom: -20px;
@@ -775,8 +775,17 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-weight: 700; }
 
 .feature p {
-  color: rgba(0, 8, 57, 0.5);
+  color: rgba(0, 0, 0, 0.5);
   font-size: 14px; }
+
+ .btn-primary:focus {
+   box-shadow: none;
+   /* Quita el resplandor (glow) */
+   outline: none;
+   /* Quita el borde de enfoque */
+   background-color: #b82733;
+   /* O cualquier color que prefieras */
+ }
 
 .site-blocks-cover {
   background-size: cover;
@@ -1201,139 +1210,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
     bottom: -50px;
     left: -50px; }
 
-.blog-entries-section {
-  padding: 70px 0;
-  background: #f8f9fa; }
 
-.post-entry {
-  padding: 20px;
-  border-radius: 4px;
-  border-bottom-left-radius: 0;
-  background: #ffffff;
-  position: relative;
-  top: 0;
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease; }
-  .post-entry .date {
-    font-size: 12px;
-    font-weight: 700;
-    text-transform: uppercase;
-    color: rgba(0, 8, 57, 0.5); }
-  .post-entry h3 {
-    font-size: 16px;
-    font-weight: 700; }
-    .post-entry h3 a {
-      color: #000839; }
-  .post-entry p {
-    font-size: 14px; }
-  .post-entry *:last-child {
-    margin-bottom: 0; }
-  .post-entry:hover, .post-entry:focus {
-    top: -5px;
-    -webkit-box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
-    box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05); }
-
-.service-2.no-shadow.link {
-  -webkit-box-shadow: none !important;
-  box-shadow: none !important; }
-
-.service-2 .service-icon {
-  font-size: 24px;
-  display: inline-block;
-  width: 50px;
-  height: 50px;
-  border-radius: 4px;
-  position: relative;
-  color: #b82733;
-  background-color: #ffffff; }
-  .service-2 .service-icon > svg {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%); }
-
-.service-2 .service-contents h3 {
-  font-size: 16px;
-  color: #000000; }
-
-.service-2.horizontal .service-icon {
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 40px;
-  flex: 0 0 40px;
-  margin-right: 30px;
-  width: 40px;
-  height: 40px;
-  font-size: 20px; }
-
-.service-2.link {
-  padding: 20px;
-  margin-bottom: 10px;
-  border-radius: 7px; }
-  .service-2.link .service-contents {
-    color: #939393; }
-    .service-2.link .service-contents *:last-child {
-      margin-bottom: 0; }
-  .service-2.link:hover, .service-2.link.active {
-    background: #ffffff;
-    -webkit-box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.05);
-    box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.05); }
-    .service-2.link:hover .service-icon, .service-2.link.active .service-icon {
-      background-color: #f8f9fa;
-      color: #000000; }
-  .service-2.link.active {
-    position: relative;
-    overflow: hidden; }
-    .service-2.link.active .service-icon {
-      color: #ffffff;
-      background-color: #b82733; }
-
-.section-grey {
-  padding-top: 60px;
-  padding-bottom: 60px;
-  background: #f5f5f5; }
-  @media (max-width: 991.98px) {
-    .section-grey .img-wrap .img {
-      margin-top: 0; } }
-
-
-
-.more {
-  position: relative;
-  padding-right: 30px;
-  display: inline-block; }
-  .more span {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    font-size: 12px;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-    width: 20px;
-    height: 20px;
-    background: transparent;
-    color: #ffffff;
-    line-height: 1.6;
-    text-align: center;
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease; }
-  .more:hover {
-    color: #ffffff; }
-    .more:hover span {
-      background: #b82733; }
-  .more.dark {
-    color: #000000; }
-    .more.dark > span {
-      color: #000000; }
-    .more.dark:hover {
-      color: #b82733; }
-      .more.dark:hover span {
-        color: #ffffff;
-        background: #b82733; }
 
 
 
