@@ -778,14 +778,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   color: rgba(0, 0, 0, 0.5);
   font-size: 14px; }
 
- .btn-primary:focus {
-   box-shadow: none;
-   /* Quita el resplandor (glow) */
-   outline: none;
-   /* Quita el borde de enfoque */
-   background-color: #b82733;
-   /* O cualquier color que prefieras */
- }
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary.focus,
+.btn-primary.active {
+  box-shadow: none !important;
+  outline: none !important;
+  background-color: #b82733 !important;
+  border-color: #b82733 !important;
+  color: white !important;
+}
 
 .site-blocks-cover {
   background-size: cover;
