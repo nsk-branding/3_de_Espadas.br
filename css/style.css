@@ -12,6 +12,7 @@ html {
 
 body {
   font-family: "Montserrat", sans-serif;
+  font-weight: bold;
   line-height: 1.8;
   font-size: 15px;
   color: #7a7a7a;
@@ -153,17 +154,23 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 .logo {
   position: absolute;
-  left: 0;
+  left: 0%;
   z-index: 9;
   font-size: 20px;
-  font-weight: 700;
+  font-weight: 50;
   line-height: 1;
-  top: 50%;
+  top: 119%;
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
   .logo a {
     color: #b82733; }
+        .logo img {
+          width: 250px;
+          /* Ajusta el valor según lo que necesites */
+          height: auto;
+          /* Mantendrá las proporciones correctas */
+        }
 
 .site-nav {
   position: absolute;
@@ -299,6 +306,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
           margin-top: 0px;
           visibility: visible;
           opacity: 1; }
+
+          
 
 .site-mobile-menu-close {
   display: block;
